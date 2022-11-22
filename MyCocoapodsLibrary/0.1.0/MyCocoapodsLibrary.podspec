@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://mehiretab@github.com/mehiretab/MyCocoapodsLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mehiretabPulsemusic' => 'mehiretab333@gmail.com' }
+  s.author           = { 'mehiretab' => 'mehiretab333@gmail.com' }
   s.source           = { :git => 'https://mehiretab@github.com/mehiretab/MyCocoapodsLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
