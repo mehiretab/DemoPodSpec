@@ -31,6 +31,13 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MyCocoapodsLibrary/Classes/**/*'
   
+  s.subspec 'Classes/A' do |ss|
+    ss.source_files = 'Test1'
+  end
+  s.subspec 'Classes/B' do |ss|
+    ss.source_files = 'Test1'
+  end
+
   # s.resource_bundles = {
   #   'MyCocoapodsLibrary' => ['MyCocoapodsLibrary/Assets/*.png']
   # }
