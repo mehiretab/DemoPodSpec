@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MyCocoapodsLibrary/Classes/**/*'
   
-  s.subspec 'Classes/A' do |ss|
-    ss.source_files = 'Test1'
+  s.subspec 'Classes' do |ss|
+    ss.source_files = 'A/Test1.h'
   end
-  s.subspec 'Classes/B' do |ss|
-    ss.source_files = 'Test1'
+  s.subspec 'Classes' do |ss|
+    ss.source_files = 'B/Test1.h'
   end
 
   # s.resource_bundles = {
